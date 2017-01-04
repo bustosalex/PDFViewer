@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C413429383920BCD58C591EA /* Pods_PDFViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5FF91F08FF8C4A3BDB432D /* Pods_PDFViewer.framework */; };
+		FA1BDEEB1E1316DC00821345 /* Chapter1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDB1E1316DC00821345 /* Chapter1.pdf */; };
+		FA1BDEEC1E1316DC00821345 /* Chapter2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDC1E1316DC00821345 /* Chapter2.pdf */; };
+		FA1BDEED1E1316DC00821345 /* Chapter3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDD1E1316DC00821345 /* Chapter3.pdf */; };
+		FA1BDEEE1E1316DC00821345 /* Chapter4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDE1E1316DC00821345 /* Chapter4.pdf */; };
+		FA1BDEEF1E1316DC00821345 /* Chapter5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDF1E1316DC00821345 /* Chapter5.pdf */; };
+		FA1BDEF01E1316DC00821345 /* Chapter6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE01E1316DC00821345 /* Chapter6.pdf */; };
+		FA1BDEF11E1316DC00821345 /* Chapter7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE11E1316DC00821345 /* Chapter7.pdf */; };
+		FA1BDEF21E1316DC00821345 /* Chapter8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE21E1316DC00821345 /* Chapter8.pdf */; };
+		FA1BDEF31E1316DC00821345 /* Chapter9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE31E1316DC00821345 /* Chapter9.pdf */; };
+		FA1BDEF41E1316DC00821345 /* Chapter10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE41E1316DC00821345 /* Chapter10.pdf */; };
+		FA1BDEF51E1316DC00821345 /* Chapter11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE51E1316DC00821345 /* Chapter11.pdf */; };
+		FA1BDEF61E1316DD00821345 /* Chapter12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE61E1316DC00821345 /* Chapter12.pdf */; };
+		FA1BDEF71E1316DD00821345 /* Chapter13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE71E1316DC00821345 /* Chapter13.pdf */; };
+		FA1BDEF81E1316DD00821345 /* Chapter14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE81E1316DC00821345 /* Chapter14.pdf */; };
+		FA1BDEF91E1316DD00821345 /* Chapter15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEE91E1316DC00821345 /* Chapter15.pdf */; };
+		FA1BDEFA1E1316DD00821345 /* Chapter16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEEA1E1316DC00821345 /* Chapter16.pdf */; };
+		FA1BDF001E14569D00821345 /* RealmString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BDEFF1E14569D00821345 /* RealmString.swift */; };
+		FA1BDF021E16CB8600821345 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1BDF011E16CB8600821345 /* Credentials.swift */; };
+		FA3713F51E0B3167007E2BA4 /* PDFChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3713F41E0B3167007E2BA4 /* PDFChapter.swift */; };
+		FA631B0D1E09D9FB003EBE73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA631B0C1E09D9FB003EBE73 /* AppDelegate.swift */; };
+		FA631B121E09D9FB003EBE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA631B101E09D9FB003EBE73 /* Main.storyboard */; };
+		FA631B141E09D9FB003EBE73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA631B131E09D9FB003EBE73 /* Assets.xcassets */; };
+		FA631B171E09D9FC003EBE73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA631B151E09D9FC003EBE73 /* LaunchScreen.storyboard */; };
+		FA631B221E09D9FC003EBE73 /* PDFViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA631B211E09D9FC003EBE73 /* PDFViewerTests.swift */; };
+		FA631B2D1E09D9FC003EBE73 /* PDFViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA631B2C1E09D9FC003EBE73 /* PDFViewerUITests.swift */; };
+		FA631B401E09E047003EBE73 /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA631B3F1E09E047003EBE73 /* PDFDocument.swift */; };
+		FA631B421E0A23B9003EBE73 /* PDFPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA631B411E0A23B9003EBE73 /* PDFPageController.swift */; };
+		FA631B441E0A2576003EBE73 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA631B431E0A2576003EBE73 /* PDFViewController.swift */; };
+		FA6B33B71E11C9EB001CC8C2 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B33B61E11C9EB001CC8C2 /* Chapter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA631B1E1E09D9FC003EBE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA631B011E09D9FA003EBE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA631B081E09D9FB003EBE73;
+			remoteInfo = PDFViewer;
+		};
+		FA631B291E09D9FC003EBE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA631B011E09D9FA003EBE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA631B081E09D9FB003EBE73;
+			remoteInfo = PDFViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5FF91F08FF8C4A3BDB432D /* Pods_PDFViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23813FC03E9253527D0068A0 /* Pods-PDFViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.release.xcconfig"; sourceTree = "<group>"; };
+		6A785A4D5C50793E095E3130 /* Pods_PDFViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9537686EF0E8422C839F0A28 /* Pods-PDFViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB6B1B635E532BCEFFAD599 /* Pods_PDFViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1BDEDB1E1316DC00821345 /* Chapter1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter1.pdf; path = PDFViewer/Chapter1.pdf; sourceTree = "<group>"; };
+		FA1BDEDC1E1316DC00821345 /* Chapter2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter2.pdf; path = PDFViewer/Chapter2.pdf; sourceTree = "<group>"; };
+		FA1BDEDD1E1316DC00821345 /* Chapter3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter3.pdf; path = PDFViewer/Chapter3.pdf; sourceTree = "<group>"; };
+		FA1BDEDE1E1316DC00821345 /* Chapter4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter4.pdf; path = PDFViewer/Chapter4.pdf; sourceTree = "<group>"; };
+		FA1BDEDF1E1316DC00821345 /* Chapter5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter5.pdf; path = PDFViewer/Chapter5.pdf; sourceTree = "<group>"; };
+		FA1BDEE01E1316DC00821345 /* Chapter6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter6.pdf; path = PDFViewer/Chapter6.pdf; sourceTree = "<group>"; };
+		FA1BDEE11E1316DC00821345 /* Chapter7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter7.pdf; path = PDFViewer/Chapter7.pdf; sourceTree = "<group>"; };
+		FA1BDEE21E1316DC00821345 /* Chapter8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter8.pdf; path = PDFViewer/Chapter8.pdf; sourceTree = "<group>"; };
+		FA1BDEE31E1316DC00821345 /* Chapter9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter9.pdf; path = PDFViewer/Chapter9.pdf; sourceTree = "<group>"; };
+		FA1BDEE41E1316DC00821345 /* Chapter10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter10.pdf; path = PDFViewer/Chapter10.pdf; sourceTree = "<group>"; };
+		FA1BDEE51E1316DC00821345 /* Chapter11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter11.pdf; path = PDFViewer/Chapter11.pdf; sourceTree = "<group>"; };
+		FA1BDEE61E1316DC00821345 /* Chapter12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter12.pdf; path = PDFViewer/Chapter12.pdf; sourceTree = "<group>"; };
+		FA1BDEE71E1316DC00821345 /* Chapter13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter13.pdf; path = PDFViewer/Chapter13.pdf; sourceTree = "<group>"; };
+		FA1BDEE81E1316DC00821345 /* Chapter14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter14.pdf; path = PDFViewer/Chapter14.pdf; sourceTree = "<group>"; };
+		FA1BDEE91E1316DC00821345 /* Chapter15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter15.pdf; path = PDFViewer/Chapter15.pdf; sourceTree = "<group>"; };
+		FA1BDEEA1E1316DC00821345 /* Chapter16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter16.pdf; path = PDFViewer/Chapter16.pdf; sourceTree = "<group>"; };
+		FA1BDEFF1E14569D00821345 /* RealmString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmString.swift; sourceTree = "<group>"; };
+		FA1BDF011E16CB8600821345 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		FA3713F41E0B3167007E2BA4 /* PDFChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFChapter.swift; sourceTree = "<group>"; };
+		FA631B091E09D9FB003EBE73 /* PDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA631B0C1E09D9FB003EBE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA631B111E09D9FB003EBE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA631B131E09D9FB003EBE73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA631B161E09D9FC003EBE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA631B181E09D9FC003EBE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA631B1D1E09D9FC003EBE73 /* PDFViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA631B211E09D9FC003EBE73 /* PDFViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerTests.swift; sourceTree = "<group>"; };
+		FA631B231E09D9FC003EBE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA631B281E09D9FC003EBE73 /* PDFViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA631B2C1E09D9FC003EBE73 /* PDFViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerUITests.swift; sourceTree = "<group>"; };
+		FA631B2E1E09D9FC003EBE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA631B3F1E09E047003EBE73 /* PDFDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFDocument.swift; sourceTree = "<group>"; };
+		FA631B411E0A23B9003EBE73 /* PDFPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageController.swift; sourceTree = "<group>"; };
+		FA631B431E0A2576003EBE73 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		FA6B33B61E11C9EB001CC8C2 /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA631B061E09D9FB003EBE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C413429383920BCD58C591EA /* Pods_PDFViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA631B1A1E09D9FC003EBE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA631B251E09D9FC003EBE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE2E031CF616504CD6BB1611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5FF91F08FF8C4A3BDB432D /* Pods_PDFViewer.framework */,
+				6A785A4D5C50793E095E3130 /* Pods_PDFViewerTests.framework */,
+				DEB6B1B635E532BCEFFAD599 /* Pods_PDFViewerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9AA94F76160D868021F67EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9537686EF0E8422C839F0A28 /* Pods-PDFViewer.debug.xcconfig */,
+				23813FC03E9253527D0068A0 /* Pods-PDFViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA631B001E09D9FA003EBE73 = {
+			isa = PBXGroup;
+			children = (
+				FA631B3C1E09DE7C003EBE73 /* Resources */,
+				FA631B0B1E09D9FB003EBE73 /* PDFViewer */,
+				FA631B201E09D9FC003EBE73 /* PDFViewerTests */,
+				FA631B2B1E09D9FC003EBE73 /* PDFViewerUITests */,
+				FA631B0A1E09D9FB003EBE73 /* Products */,
+				B9AA94F76160D868021F67EB /* Pods */,
+				AE2E031CF616504CD6BB1611 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA631B0A1E09D9FB003EBE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA631B091E09D9FB003EBE73 /* PDFViewer.app */,
+				FA631B1D1E09D9FC003EBE73 /* PDFViewerTests.xctest */,
+				FA631B281E09D9FC003EBE73 /* PDFViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA631B0B1E09D9FB003EBE73 /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B33B41E11C73B001CC8C2 /* Other */,
+				FA6B33B31E11C6FC001CC8C2 /* Model */,
+				FA6B33B21E11C6E1001CC8C2 /* Controllers */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		FA631B201E09D9FC003EBE73 /* PDFViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA631B211E09D9FC003EBE73 /* PDFViewerTests.swift */,
+				FA631B231E09D9FC003EBE73 /* Info.plist */,
+			);
+			path = PDFViewerTests;
+			sourceTree = "<group>";
+		};
+		FA631B2B1E09D9FC003EBE73 /* PDFViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA631B2C1E09D9FC003EBE73 /* PDFViewerUITests.swift */,
+				FA631B2E1E09D9FC003EBE73 /* Info.plist */,
+			);
+			path = PDFViewerUITests;
+			sourceTree = "<group>";
+		};
+		FA631B3C1E09DE7C003EBE73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA1BDEDB1E1316DC00821345 /* Chapter1.pdf */,
+				FA1BDEDC1E1316DC00821345 /* Chapter2.pdf */,
+				FA1BDEDD1E1316DC00821345 /* Chapter3.pdf */,
+				FA1BDEDE1E1316DC00821345 /* Chapter4.pdf */,
+				FA1BDEDF1E1316DC00821345 /* Chapter5.pdf */,
+				FA1BDEE01E1316DC00821345 /* Chapter6.pdf */,
+				FA1BDEE11E1316DC00821345 /* Chapter7.pdf */,
+				FA1BDEE21E1316DC00821345 /* Chapter8.pdf */,
+				FA1BDEE31E1316DC00821345 /* Chapter9.pdf */,
+				FA1BDEE41E1316DC00821345 /* Chapter10.pdf */,
+				FA1BDEE51E1316DC00821345 /* Chapter11.pdf */,
+				FA1BDEE61E1316DC00821345 /* Chapter12.pdf */,
+				FA1BDEE71E1316DC00821345 /* Chapter13.pdf */,
+				FA1BDEE81E1316DC00821345 /* Chapter14.pdf */,
+				FA1BDEE91E1316DC00821345 /* Chapter15.pdf */,
+				FA1BDEEA1E1316DC00821345 /* Chapter16.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FA6B33B21E11C6E1001CC8C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA631B431E0A2576003EBE73 /* PDFViewController.swift */,
+				FA631B411E0A23B9003EBE73 /* PDFPageController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FA6B33B31E11C6FC001CC8C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B33B51E11C984001CC8C2 /* Realm Models */,
+				FA3713F41E0B3167007E2BA4 /* PDFChapter.swift */,
+				FA631B3F1E09E047003EBE73 /* PDFDocument.swift */,
+				FA1BDF011E16CB8600821345 /* Credentials.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FA6B33B41E11C73B001CC8C2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FA631B101E09D9FB003EBE73 /* Main.storyboard */,
+				FA631B131E09D9FB003EBE73 /* Assets.xcassets */,
+				FA631B151E09D9FC003EBE73 /* LaunchScreen.storyboard */,
+				FA631B181E09D9FC003EBE73 /* Info.plist */,
+				FA631B0C1E09D9FB003EBE73 /* AppDelegate.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		FA6B33B51E11C984001CC8C2 /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B33B61E11C9EB001CC8C2 /* Chapter.swift */,
+				FA1BDEFF1E14569D00821345 /* RealmString.swift */,
+			);
+			name = "Realm Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA631B081E09D9FB003EBE73 /* PDFViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA631B311E09D9FC003EBE73 /* Build configuration list for PBXNativeTarget "PDFViewer" */;
+			buildPhases = (
+				BEC5DE40C2A8F7F6D7EE1F27 /* [CP] Check Pods Manifest.lock */,
+				FA631B051E09D9FB003EBE73 /* Sources */,
+				FA631B061E09D9FB003EBE73 /* Frameworks */,
+				FA631B071E09D9FB003EBE73 /* Resources */,
+				0C9ECDCDCA29459F221CC933 /* [CP] Embed Pods Frameworks */,
+				495746788CAD36FC27F2A02D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFViewer;
+			productName = PDFViewer;
+			productReference = FA631B091E09D9FB003EBE73 /* PDFViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA631B1C1E09D9FC003EBE73 /* PDFViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA631B341E09D9FC003EBE73 /* Build configuration list for PBXNativeTarget "PDFViewerTests" */;
+			buildPhases = (
+				FA631B191E09D9FC003EBE73 /* Sources */,
+				FA631B1A1E09D9FC003EBE73 /* Frameworks */,
+				FA631B1B1E09D9FC003EBE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA631B1F1E09D9FC003EBE73 /* PBXTargetDependency */,
+			);
+			name = PDFViewerTests;
+			productName = PDFViewerTests;
+			productReference = FA631B1D1E09D9FC003EBE73 /* PDFViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA631B271E09D9FC003EBE73 /* PDFViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA631B371E09D9FC003EBE73 /* Build configuration list for PBXNativeTarget "PDFViewerUITests" */;
+			buildPhases = (
+				FA631B241E09D9FC003EBE73 /* Sources */,
+				FA631B251E09D9FC003EBE73 /* Frameworks */,
+				FA631B261E09D9FC003EBE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA631B2A1E09D9FC003EBE73 /* PBXTargetDependency */,
+			);
+			name = PDFViewerUITests;
+			productName = PDFViewerUITests;
+			productReference = FA631B281E09D9FC003EBE73 /* PDFViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA631B011E09D9FA003EBE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alexander Bustos";
+				TargetAttributes = {
+					FA631B081E09D9FB003EBE73 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UTH2FJ9ZL4;
+						ProvisioningStyle = Automatic;
+					};
+					FA631B1C1E09D9FC003EBE73 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA631B081E09D9FB003EBE73;
+					};
+					FA631B271E09D9FC003EBE73 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA631B081E09D9FB003EBE73;
+					};
+				};
+			};
+			buildConfigurationList = FA631B041E09D9FA003EBE73 /* Build configuration list for PBXProject "PDFViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA631B001E09D9FA003EBE73;
+			productRefGroup = FA631B0A1E09D9FB003EBE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA631B081E09D9FB003EBE73 /* PDFViewer */,
+				FA631B1C1E09D9FC003EBE73 /* PDFViewerTests */,
+				FA631B271E09D9FC003EBE73 /* PDFViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA631B071E09D9FB003EBE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1BDEF71E1316DD00821345 /* Chapter13.pdf in Resources */,
+				FA1BDEEF1E1316DC00821345 /* Chapter5.pdf in Resources */,
+				FA631B171E09D9FC003EBE73 /* LaunchScreen.storyboard in Resources */,
+				FA1BDEF01E1316DC00821345 /* Chapter6.pdf in Resources */,
+				FA631B141E09D9FB003EBE73 /* Assets.xcassets in Resources */,
+				FA1BDEF81E1316DD00821345 /* Chapter14.pdf in Resources */,
+				FA1BDEF51E1316DC00821345 /* Chapter11.pdf in Resources */,
+				FA1BDEF31E1316DC00821345 /* Chapter9.pdf in Resources */,
+				FA1BDEF41E1316DC00821345 /* Chapter10.pdf in Resources */,
+				FA1BDEEC1E1316DC00821345 /* Chapter2.pdf in Resources */,
+				FA1BDEEB1E1316DC00821345 /* Chapter1.pdf in Resources */,
+				FA631B121E09D9FB003EBE73 /* Main.storyboard in Resources */,
+				FA1BDEEE1E1316DC00821345 /* Chapter4.pdf in Resources */,
+				FA1BDEF11E1316DC00821345 /* Chapter7.pdf in Resources */,
+				FA1BDEFA1E1316DD00821345 /* Chapter16.pdf in Resources */,
+				FA1BDEF61E1316DD00821345 /* Chapter12.pdf in Resources */,
+				FA1BDEED1E1316DC00821345 /* Chapter3.pdf in Resources */,
+				FA1BDEF21E1316DC00821345 /* Chapter8.pdf in Resources */,
+				FA1BDEF91E1316DD00821345 /* Chapter15.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA631B1B1E09D9FC003EBE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA631B261E09D9FC003EBE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C9ECDCDCA29459F221CC933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495746788CAD36FC27F2A02D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC5DE40C2A8F7F6D7EE1F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA631B051E09D9FB003EBE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA631B441E0A2576003EBE73 /* PDFViewController.swift in Sources */,
+				FA631B421E0A23B9003EBE73 /* PDFPageController.swift in Sources */,
+				FA1BDF021E16CB8600821345 /* Credentials.swift in Sources */,
+				FA3713F51E0B3167007E2BA4 /* PDFChapter.swift in Sources */,
+				FA6B33B71E11C9EB001CC8C2 /* Chapter.swift in Sources */,
+				FA631B401E09E047003EBE73 /* PDFDocument.swift in Sources */,
+				FA1BDF001E14569D00821345 /* RealmString.swift in Sources */,
+				FA631B0D1E09D9FB003EBE73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA631B191E09D9FC003EBE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA631B221E09D9FC003EBE73 /* PDFViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA631B241E09D9FC003EBE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA631B2D1E09D9FC003EBE73 /* PDFViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA631B1F1E09D9FC003EBE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA631B081E09D9FB003EBE73 /* PDFViewer */;
+			targetProxy = FA631B1E1E09D9FC003EBE73 /* PBXContainerItemProxy */;
+		};
+		FA631B2A1E09D9FC003EBE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA631B081E09D9FB003EBE73 /* PDFViewer */;
+			targetProxy = FA631B291E09D9FC003EBE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA631B101E09D9FB003EBE73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA631B111E09D9FB003EBE73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA631B151E09D9FC003EBE73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA631B161E09D9FC003EBE73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA631B2F1E09D9FC003EBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA631B301E09D9FC003EBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA631B321E09D9FC003EBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9537686EF0E8422C839F0A28 /* Pods-PDFViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTH2FJ9ZL4;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.appfactory.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA631B331E09D9FC003EBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23813FC03E9253527D0068A0 /* Pods-PDFViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTH2FJ9ZL4;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.appfactory.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA631B351E09D9FC003EBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.appfactory.PDFViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFViewer.app/PDFViewer";
+			};
+			name = Debug;
+		};
+		FA631B361E09D9FC003EBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.appfactory.PDFViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFViewer.app/PDFViewer";
+			};
+			name = Release;
+		};
+		FA631B381E09D9FC003EBE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PDFViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.appfactory.PDFViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PDFViewer;
+			};
+			name = Debug;
+		};
+		FA631B391E09D9FC003EBE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PDFViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uwp.appfactory.PDFViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PDFViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA631B041E09D9FA003EBE73 /* Build configuration list for PBXProject "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA631B2F1E09D9FC003EBE73 /* Debug */,
+				FA631B301E09D9FC003EBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA631B311E09D9FC003EBE73 /* Build configuration list for PBXNativeTarget "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA631B321E09D9FC003EBE73 /* Debug */,
+				FA631B331E09D9FC003EBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA631B341E09D9FC003EBE73 /* Build configuration list for PBXNativeTarget "PDFViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA631B351E09D9FC003EBE73 /* Debug */,
+				FA631B361E09D9FC003EBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA631B371E09D9FC003EBE73 /* Build configuration list for PBXNativeTarget "PDFViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA631B381E09D9FC003EBE73 /* Debug */,
+				FA631B391E09D9FC003EBE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA631B011E09D9FA003EBE73 /* Project object */;
+}
