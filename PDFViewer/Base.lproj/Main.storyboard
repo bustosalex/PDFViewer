@@ -28,7 +28,7 @@
                     <view key="view" contentMode="scaleToFill" id="5d3-xb-KBt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="0.57197131849315064" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.88616234487688483" green="0.54567364854448563" blue="0.83038894652348239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kPK-sw-Q0x" userLabel="First Responder" sceneMemberID="firstResponder"/>

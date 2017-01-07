@@ -41,11 +41,30 @@ class PDFPageController: UIPageViewController {
         
         
         // makes and api call to get the pdf for the chapter
-        hitAPI(forChapter: 1)
-        hitAPI(forChapter: 2)
-        hitAPI(forChapter: 3)
+        //hitAPI(forChapter: 1)
+        //hitAPI(forChapter: 2)
+        //hitAPI(forChapter: 3)
         
-        //reloadData()
+        
+        
+        loadTemplates()
+        
+    }
+    
+    func loadTemplates(){
+        for number in 1...16{
+            let name = "Chapter" + String(number)
+            let url = Bundle.main.url(forResource: name, withExtension: "pdf")
+            
+            if let document = PDFDocument(url: url!){
+                self.createOrUpdateRealm(forChapter: number, withDocument: document)
+            }
+            else {
+                print("Couldn't update pdf")
+            }
+        }
+        
+        loadData()
     }
     
     func checkEmptyDirectories(){
@@ -158,6 +177,7 @@ class PDFPageController: UIPageViewController {
         }
 
     }
+    
     // Creates folder if it doesn't exists for a chapter
     func createFolder(at path: URL, fileManager: FileManager){
         do {
@@ -210,9 +230,7 @@ class PDFPageController: UIPageViewController {
         if pdfControllers.count != 0 {
             let first = [pdfControllers[0]]
             DispatchQueue.main.async {
-                self.setViewControllers(first, direction: .forward, animated: true) { (Bool) in
-                    print("test")
-                }
+                self.setViewControllers(first, direction: .forward, animated: true, completion: nil)
             }
             
         }
@@ -241,7 +259,6 @@ class PDFPageController: UIPageViewController {
                         controller.chapter = chapterNumber
                         controller.index = page
                         pdfControllers.append(controller)
-                        //print("Successfully loaded image located at: \(url!.absoluteString)")
                     }
                     catch {
                         print("Error getting data from \(url?.absoluteString)")
