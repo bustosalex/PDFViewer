@@ -39,16 +39,11 @@ class PDFPageController: UIPageViewController {
         
         //checkEmptyDirectories()
         
-        //createOrUpdateRealm()
-        
-        
-        // if there is anything in realm it's going to load those pages first
-        // otherwise it's going to display an error message
-        loadData()
         
         // makes and api call to get the pdf for the chapter
         hitAPI(forChapter: 1)
         hitAPI(forChapter: 2)
+        hitAPI(forChapter: 3)
         
         //reloadData()
     }
@@ -132,12 +127,16 @@ class PDFPageController: UIPageViewController {
         chapter.imageNames = imageNames
         chapter.path = path.absoluteString
         
+        print("ChapterID = \(chapter.id)")
+        print("Image name = \(chapter.imageNames)")
+        
         let realm = try! Realm()
         try! realm.write {
             realm.add(chapter)
         }
     
     
+        
 
 
 
@@ -175,17 +174,18 @@ class PDFPageController: UIPageViewController {
     /// - Parameter chapter: Chapter number for pdf
     func hitAPI(forChapter chapter: Int){
         
-        //let url = URL(string: "\(Crednetials.baseUrl)/chapters/\(chapter)/pdf")
-        let url = URL(string: "http://tutorial.math.lamar.edu/pdf/Calculus_Cheat_Sheet_All.pdf")
+        let url = URL(string: "\(Crednetials.baseUrl)/chapters/\(chapter)/pdf")
+        //let url = URL(string: "http://tutorial.math.lamar.edu/pdf/Calculus_Cheat_Sheet_All.pdf")
         var urlRequest = URLRequest(url: url!)
         urlRequest.httpMethod = "GET"
         urlRequest.addValue(Crednetials.token, forHTTPHeaderField: "Authorization")
         let task = URLSession.shared.dataTask(with: urlRequest, completionHandler: { (data, response, error) in
-            if data != nil && error == nil {
+            if data != nil && error == nil && response != nil{
                 // This is where im actually setting the data for pdfs that im getting from online
+                print(response.debugDescription)
                 if let document = PDFDocument(data: data!){
                     self.createOrUpdateRealm(forChapter: chapter, withDocument: document)
-                    self.reloadData()
+
                 }
                 else {
                     print("Couldn't get pdf for chapter \(chapter) from server")
