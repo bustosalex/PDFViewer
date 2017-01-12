@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C413429383920BCD58C591EA /* Pods_PDFViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5FF91F08FF8C4A3BDB432D /* Pods_PDFViewer.framework */; };
+		E26478DAA5BE51F90669121E /* Pods_PDFViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDE4169A651AE5BCB9D37E2 /* Pods_PDFViewer.framework */; };
 		FA1BDEEB1E1316DC00821345 /* Chapter1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDB1E1316DC00821345 /* Chapter1.pdf */; };
 		FA1BDEEC1E1316DC00821345 /* Chapter2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDC1E1316DC00821345 /* Chapter2.pdf */; };
 		FA1BDEED1E1316DC00821345 /* Chapter3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA1BDEDD1E1316DC00821345 /* Chapter3.pdf */; };
@@ -57,11 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5FF91F08FF8C4A3BDB432D /* Pods_PDFViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23813FC03E9253527D0068A0 /* Pods-PDFViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.release.xcconfig"; sourceTree = "<group>"; };
-		6A785A4D5C50793E095E3130 /* Pods_PDFViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9537686EF0E8422C839F0A28 /* Pods-PDFViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.debug.xcconfig"; sourceTree = "<group>"; };
-		DEB6B1B635E532BCEFFAD599 /* Pods_PDFViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A79E3E29393FD91E495888 /* Pods-PDFViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		EDDE4169A651AE5BCB9D37E2 /* Pods_PDFViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1BDEDB1E1316DC00821345 /* Chapter1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter1.pdf; path = PDFViewer/Chapter1.pdf; sourceTree = "<group>"; };
 		FA1BDEDC1E1316DC00821345 /* Chapter2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter2.pdf; path = PDFViewer/Chapter2.pdf; sourceTree = "<group>"; };
 		FA1BDEDD1E1316DC00821345 /* Chapter3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Chapter3.pdf; path = PDFViewer/Chapter3.pdf; sourceTree = "<group>"; };
@@ -81,6 +78,7 @@
 		FA1BDEFF1E14569D00821345 /* RealmString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmString.swift; sourceTree = "<group>"; };
 		FA1BDF011E16CB8600821345 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		FA3713F41E0B3167007E2BA4 /* PDFChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFChapter.swift; sourceTree = "<group>"; };
+		FA5061676D73381D7F90E9DB /* Pods-PDFViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer.release.xcconfig"; sourceTree = "<group>"; };
 		FA631B091E09D9FB003EBE73 /* PDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA631B0C1E09D9FB003EBE73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA631B111E09D9FB003EBE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C413429383920BCD58C591EA /* Pods_PDFViewer.framework in Frameworks */,
+				E26478DAA5BE51F90669121E /* Pods_PDFViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,23 +123,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE2E031CF616504CD6BB1611 /* Frameworks */ = {
+		888441FFC9880D0F63156F8F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A5FF91F08FF8C4A3BDB432D /* Pods_PDFViewer.framework */,
-				6A785A4D5C50793E095E3130 /* Pods_PDFViewerTests.framework */,
-				DEB6B1B635E532BCEFFAD599 /* Pods_PDFViewerUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B9AA94F76160D868021F67EB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9537686EF0E8422C839F0A28 /* Pods-PDFViewer.debug.xcconfig */,
-				23813FC03E9253527D0068A0 /* Pods-PDFViewer.release.xcconfig */,
+				11A79E3E29393FD91E495888 /* Pods-PDFViewer.debug.xcconfig */,
+				FA5061676D73381D7F90E9DB /* Pods-PDFViewer.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		98117169558967D3EFE32A8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDE4169A651AE5BCB9D37E2 /* Pods_PDFViewer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FA631B001E09D9FA003EBE73 = {
@@ -152,8 +148,8 @@
 				FA631B201E09D9FC003EBE73 /* PDFViewerTests */,
 				FA631B2B1E09D9FC003EBE73 /* PDFViewerUITests */,
 				FA631B0A1E09D9FB003EBE73 /* Products */,
-				B9AA94F76160D868021F67EB /* Pods */,
-				AE2E031CF616504CD6BB1611 /* Frameworks */,
+				888441FFC9880D0F63156F8F /* Pods */,
+				98117169558967D3EFE32A8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,12 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA631B311E09D9FC003EBE73 /* Build configuration list for PBXNativeTarget "PDFViewer" */;
 			buildPhases = (
-				BEC5DE40C2A8F7F6D7EE1F27 /* [CP] Check Pods Manifest.lock */,
+				572E5F661E28AD4CA84EF2AB /* [CP] Check Pods Manifest.lock */,
 				FA631B051E09D9FB003EBE73 /* Sources */,
 				FA631B061E09D9FB003EBE73 /* Frameworks */,
 				FA631B071E09D9FB003EBE73 /* Resources */,
-				0C9ECDCDCA29459F221CC933 /* [CP] Embed Pods Frameworks */,
-				495746788CAD36FC27F2A02D /* [CP] Copy Pods Resources */,
+				90489D2DCFB9F5ABC8017D3E /* [CP] Embed Pods Frameworks */,
+				6ABC0A1D702451074C7FDCB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -409,22 +405,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C9ECDCDCA29459F221CC933 /* [CP] Embed Pods Frameworks */ = {
+		572E5F661E28AD4CA84EF2AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		495746788CAD36FC27F2A02D /* [CP] Copy Pods Resources */ = {
+		6ABC0A1D702451074C7FDCB7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,19 +435,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEC5DE40C2A8F7F6D7EE1F27 /* [CP] Check Pods Manifest.lock */ = {
+		90489D2DCFB9F5ABC8017D3E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFViewer/Pods-PDFViewer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -618,7 +614,7 @@
 		};
 		FA631B321E09D9FC003EBE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9537686EF0E8422C839F0A28 /* Pods-PDFViewer.debug.xcconfig */;
+			baseConfigurationReference = 11A79E3E29393FD91E495888 /* Pods-PDFViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UTH2FJ9ZL4;
@@ -633,7 +629,7 @@
 		};
 		FA631B331E09D9FC003EBE73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23813FC03E9253527D0068A0 /* Pods-PDFViewer.release.xcconfig */;
+			baseConfigurationReference = FA5061676D73381D7F90E9DB /* Pods-PDFViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UTH2FJ9ZL4;

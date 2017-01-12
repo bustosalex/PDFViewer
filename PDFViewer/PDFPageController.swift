@@ -18,14 +18,13 @@ class PDFPageController: UIPageViewController {
     var pdfImages: [UIImage]?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // remove everything from the realm database. This is has to be removed
-        // after testing
         let realm = try! Realm()
         try! realm.write {
             realm.deleteAll()
         }
         
         dataSource = self
+        loadTemplates()
         setup()
         
         // set the first view controller to be displayed
@@ -41,58 +40,25 @@ class PDFPageController: UIPageViewController {
         
         
         // makes and api call to get the pdf for the chapter
-        //hitAPI(forChapter: 1)
-        //hitAPI(forChapter: 2)
-        //hitAPI(forChapter: 3)
-        
-        
-        
-        loadTemplates()
+        hitAPI(forChapter: 1)
         
     }
+    
+    
     
     func loadTemplates(){
-        for number in 1...16{
-            let name = "Chapter" + String(number)
-            let url = Bundle.main.url(forResource: name, withExtension: "pdf")
-            
-            if let document = PDFDocument(url: url!){
-                self.createOrUpdateRealm(forChapter: number, withDocument: document)
-            }
-            else {
-                print("Couldn't update pdf")
-            }
-        }
-        
-        loadData()
-    }
-    
-    func checkEmptyDirectories(){
-        let fileManager = FileManager.default
-        let paths = fileManager.urls(for: .documentDirectory, in: .userDomainMask)
-        let documentDirectory = paths[0]
-        
-        for number in 1...16{
-            let folderName = "Chapter"+String(number)
-            let path = documentDirectory.appendingPathComponent(folderName, isDirectory: true)
-            if !fileManager.fileExists(atPath: path.absoluteString){
-                createFolder(at: path, fileManager: fileManager)
-            }
-            
-            var content: [String] = []
-            do{
-                content = try fileManager.contentsOfDirectory(atPath: path.absoluteString)
-                print(content)
-            }
-            catch{
-                print("Empty")
-                let url = Bundle.main.url(forResource: folderName, withExtension: "pdf")
-                if let doc = PDFDocument(url: url!){
-                    addChapter(number: number, path: path, fileManager: fileManager, pdf: doc)
+        let realm = try! Realm()
+        if realm.objects(Chapter.self).count <= 0 {
+            for i in 1...16{
+                if let doc = document("Chapter" + String(i)){
+                    createOrUpdateRealm(forChapter: i, withDocument: doc)
                 }
             }
+            loadData()
         }
+        
     }
+    
 
     func createOrUpdateRealm(forChapter number: Int, withDocument document: PDFDocument){
         let fileManager = FileManager.default
@@ -155,8 +121,7 @@ class PDFPageController: UIPageViewController {
         }
     
     
-        
-
+    
 
 
     }
@@ -205,6 +170,7 @@ class PDFPageController: UIPageViewController {
                 print(response.debugDescription)
                 if let document = PDFDocument(data: data!){
                     self.createOrUpdateRealm(forChapter: chapter, withDocument: document)
+                    self.reloadData()
 
                 }
                 else {
